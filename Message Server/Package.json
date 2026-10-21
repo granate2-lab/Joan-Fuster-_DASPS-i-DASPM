@@ -1,0 +1,13 @@
+{
+  "name": "pasarela-gemelo-digital",
+  "version": "1.0.0",
+  "description": "Capa intermedia entre MQTT y WebSockets para Unity",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "mqtt": "^5.0.0",
+    "ws": "^8.14.0"
+  }
+}
